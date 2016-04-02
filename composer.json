@@ -1,0 +1,20 @@
+{
+    "name": "n1215/http-context-sample",
+    "description": "an implementation example of HttpContextInterface",
+    "keywords": ["psr-7", "http", "http-message", "context", "handler"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "n1215"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "n1215/http-context": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "N1215\\Http\\Context\\Sample\\": "src/"
+        }
+    }
+}
